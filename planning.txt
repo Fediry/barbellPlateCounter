@@ -1,0 +1,34 @@
+Planning:
+
+A program to calculate how many plates of different weights it will take
+to equal the target weight on a barbell for strength training.
+
+// Inputs
+    working weight amount
+
+// Outputs
+    how many plates per side and what size those plates are
+    warmups and plates per side for each
+
+// Processes
+    how many plates per side for working weight
+    number of warmups - how many plates per side for each warmup, 
+            assuming 3 warmups at 45%, 65% and 85% working weight
+
+// Mock-up
+    **********************
+    ** Plate Calculator **
+    **********************
+    Enter working weight: _
+    -----------------------
+    Warmups:
+    Weight  |   Plates / Side
+    [45%]   |   # x LB, # x LB
+    [65%]   |   # x LB, # x LB
+    [85%]   |   # x LB, # x LB
+    Working:
+    [100%]  |   # x LB, # x LB
+    
+
+// Tests
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Plate Calculator</title>
+</head>
+<body>
+    <main class="main-grid">
+        <div class="title">
+            <h1>Barbell Plate Calculator</h1>
+        </div>
+        <div class="content">
+            <form>
+                <label>Working Weight: <input type="number" name="weightInput" id="weightInput" value="135"
+                                              min="1" max="2000" size="6" required></label>
+                <input type="button" value="Submit" name="weightSubmit" id="weightSubmit" onclick="return calculatePlates()">
+            </form>
+
+            <div class="output">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Weight</th>
+                            <th>Plates/Side</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2"><em>Warmups:</em></td>
+                        </tr>
+                        <tr>
+                            <td>[45%] <span id="fortyfiveWeight"></span></td>
+                            <td><span id="fortyfivePlates"></span></td>
+                        </tr>
+                        <tr>
+                            <td>[65%] <span id="sixtyfiveWeight"></span></td>
+                            <td><span id="sixtyfivePlates"></span></td>
+                        </tr>
+                        <tr>
+                            <td>[85%] <span id="eightyfiveWeight"></span></td>
+                            <td><span id="eightyfivePlates"></span></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><em>Working Weight:</em></td>
+                        </tr>
+                        <tr>
+                            <td>[100%] <span id="workingWeight"></span></td>
+                            <td><span id="workingPlates"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script src="barbellPlateCalculator.js"></script>
+</body>
+</html>
