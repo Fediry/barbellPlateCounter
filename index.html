@@ -12,9 +12,9 @@
             <h1>Barbell Plate Calculator</h1>
         </div>
         <div class="content">
-            <form>
-                <label>Working Weight: <input type="number" name="weightInput" id="weightInput" value="135"
-                                              min="1" max="2000" size="6" required></label>
+            <form onsubmit="return false">
+                <label>Working Weight: </label>
+                <input type="number" name="weightInput" id="weightInput" min="1" max="2000" required>
                 <input type="submit" value="Submit" name="weightSubmit" id="weightSubmit" onclick="return calculatePlates()">
             </form>
 

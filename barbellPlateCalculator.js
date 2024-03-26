@@ -7,7 +7,8 @@
  * Version: 0.5
  * Date: 3/25/2024
 */
-function calculatePlates() {
+function calculatePlates(e) {
+
     // Percentages for warmups
     const PERCENT_45 = 0.45;
     const PERCENT_65 = 0.65;
