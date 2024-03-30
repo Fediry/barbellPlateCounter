@@ -1,4 +1,7 @@
-
+body {
+    background-image: url("img/conrete.jpg");
+    background-size: cover;
+}
 
 form {
     text-align: center;
@@ -18,7 +21,7 @@ caption {
 }
 
 thead > tr {
-    background-color: rgb(203, 237, 244);
+    background-color: rgba(13, 24, 44, 0.8);
 }
 
 th, td {
@@ -45,14 +48,16 @@ span {
 .title {
     text-align: center;
     margin-bottom: 0;
-    background-color: rgb(203, 237, 244);
-    border: 2px solid slategray;
+    color: rgb(251, 231, 98);
+    background-color: rgba(5, 10, 22, 0.745);
+    border: 2px solid rgb(6, 14, 22);
 }
 
 /* Content */
 .content {
     padding-top: 8px;
-    background-color: ghostwhite;
-    border: 1px dotted silver;
+    color: rgb(235, 243, 151);
     border-top: 0;
+    background-color: rgba(34, 38, 42, 0.634);
+    border: 1px dotted rgb(3, 3, 10);
 }
